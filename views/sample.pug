@@ -1,0 +1,19 @@
+html
+  head
+    title=title
+  body
+         include ./header.pug
+  div
+    h1 My Website!
+    p.greetings#people Hello World!
+  ul
+    li
+      a(href=url) Home
+    li
+      a Page 1
+    li
+      a Page 2
+  div
+    label(for="say") Say:
+    input(name = "say" value = "Hi")
+    button(type="submit") Send 
